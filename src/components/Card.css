@@ -1,0 +1,23 @@
+.card-container {
+  display: inline-block;
+  margin: .7rem;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 2px 2px 5px 1px #333;
+  border-radius: 5px;
+  background: rgb(156, 198, 184);
+  transition: all .5s;
+}
+
+.card-container:hover {
+  transform: scale(1.05,1.05);
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+h3 {
+  font-size: .8rem;
+  font-weight: 500;
+}
